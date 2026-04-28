@@ -1,1 +1,189 @@
-{"openapi": "https://developer.todoist.com/openapi.json"}
+{
+  "openapi": "https://developer.todoist.com/openapi.json", 
+  "navigation": [
+    {
+      "group": "Workspace",
+      "pages": [
+        "workspace/delete-invitation",
+        "workspace/all-invitations",
+        "workspace/accept-invitation",
+        "workspace/reject-invitation",
+        "workspace/archived-projects",
+        "workspace/active-projects",
+        "workspace/invite-workspace-users",
+        "workspace/plan-details",
+        "workspace/invitations",
+        "workspace/get-workspaces-users",
+        "workspace/join",
+        "workspace/update-logo",
+        "workspace/update-workspace-user",
+        "workspace/remove-workspace-user",
+        "workspace/get-workspace",
+        "workspace/update-workspace",
+        "workspace/delete-workspace",
+        "workspace/get-workspaces",
+        "workspace/create-workspace"
+      ]
+    },
+    {
+      "group": "Labels",
+      "pages": [
+        "labels/shared-labels-remove",
+        "labels/shared-labels-rename",
+        "labels/search-labels",
+        "labels/shared-labels",
+        "labels/get-label",
+        "labels/update-label",
+        "labels/delete-label",
+        "labels/get-labels",
+        "labels/create-label"
+      ]
+    },
+    {
+      "group": "Tasks",
+      "pages": [
+        "tasks/tasks-completed-by-completion-date",
+        "tasks/tasks-completed-by-due-date",
+        "tasks/get-tasks-by-filter",
+        "tasks/quick-add",
+        "tasks/reopen-task",
+        "tasks/close-task",
+        "tasks/move-task",
+        "tasks/get-task",
+        "tasks/update-task",
+        "tasks/delete-task",
+        "tasks/get-tasks",
+        "tasks/create-task"
+      ]
+    },
+    {
+      "group": "User",
+      "pages": [
+        "user/get-productivity-stats",
+        "user/update-notification-setting",
+        "user/user-info"
+      ]
+    },
+    {
+      "group": "Authorization",
+      "pages": [
+        "authorization/migrate-personal-token",
+        "authorization/revoke-access-token-api",
+        "authorization/revoke-token-rfc7009-compliant"
+      ]
+    },
+    {
+      "group": "Templates",
+      "pages": [
+        "templates/import-into-project-from-template-id",
+        "templates/import-into-project-from-file",
+        "templates/create-project-from-file",
+        "templates/export-as-file",
+        "templates/export-as-url"
+      ]
+    },
+    {
+      "group": "Projects",
+      "pages": [
+        "projects/permissions",
+        "projects/get-archived",
+        "projects/search-projects",
+        "projects/get-project-collaborators",
+        "projects/unarchive-project",
+        "projects/archive-project",
+        "projects/join",
+        "projects/get-project",
+        "projects/update-project",
+        "projects/delete-project",
+        "projects/get-projects",
+        "projects/create-project"
+      ]
+    },
+    {
+      "group": "Sections",
+      "pages": [
+        "sections/search-sections",
+        "sections/unarchive-section",
+        "sections/archive-section",
+        "sections/get-section",
+        "sections/update-section",
+        "sections/delete-section",
+        "sections/get-sections",
+        "sections/create-section"
+      ]
+    },
+    {
+      "group": "Backups",
+      "pages": [
+        "backups/download-backup",
+        "backups/get-backups"
+      ]
+    },
+    {
+      "group": "Location reminders",
+      "pages": [
+        "location-reminders/get-location-reminder",
+        "location-reminders/update-location-reminder",
+        "location-reminders/delete-location-reminder",
+        "location-reminders/get-location-reminders",
+        "location-reminders/create-location-reminder"
+      ]
+    },
+    {
+      "group": "Ids",
+      "pages": [
+        "ids/id-mappings"
+      ]
+    },
+    {
+      "group": "Activity",
+      "pages": [
+        "activity/get-activity-logs"
+      ]
+    },
+    {
+      "group": "Reminders",
+      "pages": [
+        "reminders/get-reminder",
+        "reminders/update-reminder",
+        "reminders/delete-reminder",
+        "reminders/get-reminders",
+        "reminders/create-reminder"
+      ]
+    },
+    {
+      "group": "Comments",
+      "pages": [
+        "comments/get-comment",
+        "comments/update-comment",
+        "comments/delete-comment",
+        "comments/get-comments",
+        "comments/create-comment"
+      ]
+    },
+    {
+      "group": "Folders",
+      "pages": [
+        "folders/get-folder",
+        "folders/update-folder",
+        "folders/delete-folder",
+        "folders/get-folders",
+        "folders/create-folder"
+      ]
+    },
+    {
+      "group": "Uploads",
+      "pages": [
+        "uploads/upload-file",
+        "uploads/delete-upload"
+      ]
+    },
+    {
+      "group": "Emails",
+      "pages": [
+        "emails/email-get-or-create",
+        "emails/email-disable"
+      ]
+    }
+  ]
+}
