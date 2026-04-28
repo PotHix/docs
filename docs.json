@@ -53,7 +53,7 @@
       },
       {
         "tab": "API reference",
-        "openapi": "openapi_public.json",
+        "openapi": "https://developer.todoist.com/openapi.json",
         "groups": [
           {
             "group": "API documentation",
